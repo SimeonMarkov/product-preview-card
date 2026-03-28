@@ -132,7 +132,13 @@ main {
     }
 
     .product-description {
-        overflow: auto;
+        line-height: 1.5rem;
+        /*overflow: auto;*/
+    }
+
+    .prices {
+        position: relative;
+        top: 2rem;
     }
 
     .submit-btn {
