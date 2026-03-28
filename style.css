@@ -101,6 +101,7 @@ main {
     background-color: var(--green-500);
     color: white;
     border: none;
+    font-weight: bold;
 }
 
 .attribution { font-size: calc((1rem / 16) * 11); text-align: center; margin-block-end: 1rem; }
@@ -110,9 +111,13 @@ main {
     main {
         display: flex;
         flex-direction: row;
-        width: 50vw;
+        width: 40vw;
         height: 30rem;
         margin: 25vh auto;
+    }
+
+    .card-image {
+        width: 50%;
     }
 
     .card-image img {
@@ -123,6 +128,7 @@ main {
 
     .card {
         width: 50%;
+        border-radius: 0 1rem 1rem 0;
     }
 
     .product-description {
