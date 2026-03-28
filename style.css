@@ -29,9 +29,6 @@ main {
     margin-block-end: 5rem;
 }
 
-.card-image {
-}
-
 .card-image picture {
     width: 100%;
     border-radius: 1rem 1rem 0 0;
@@ -113,7 +110,6 @@ main {
     main {
         display: flex;
         flex-direction: row;
-        grid-template-columns: 1fr 1fr;
         width: 50vw;
         height: 30rem;
         margin: 25vh auto;
@@ -127,7 +123,6 @@ main {
 
     .card {
         width: 50%;
-        display: flex;
     }
 
     .product-description {
