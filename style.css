@@ -114,17 +114,13 @@ main {
     main {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        width: 70vw;
+        width: 50vw;
         margin: 25vh auto;
         /*border-radius: 1rem;*/
     }
 
     .card-image img {
         border-radius: 1rem 0 0 1rem;
-    }
-
-    .card {
-        width: 100%;
     }
 
     .submit-btn:hover {
