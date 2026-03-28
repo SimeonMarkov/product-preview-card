@@ -114,7 +114,7 @@ main {
     main {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        width: 50vw;
+        width: 40vw;
         margin: 25vh auto;
         /*border-radius: 1rem;*/
     }
